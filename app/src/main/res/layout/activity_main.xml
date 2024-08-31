@@ -45,11 +45,12 @@
 
     <Button
         android:id="@+id/upgradeBtn"
-        android:layout_marginTop="20dp"
-        android:visibility="invisible"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
         android:text="Upgrade to Add 2"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/display_num"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

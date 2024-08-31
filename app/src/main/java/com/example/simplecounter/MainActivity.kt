@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
 
         val textView = findViewById<TextView>(R.id.display_num)
-        var counter : Int = 0
+        var counter = 0
         val button = findViewById< Button>(R.id.add_button)
 
 
@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
                 // Show upgrade button and set onClickListener
                 upgradeButton.visibility = View.VISIBLE
                 upgradeButton.setOnClickListener {
-                    button.text = "ADD 2"
+                    button.text = getString(R.string.add_display_2)
 
                     // Update original button to add 2 instead of `
                     button.setOnClickListener {
